@@ -29,7 +29,7 @@
 .intro__suptitle{
     font-family: $font1;
     font-size: 36px;
-    font: normal normal 600 36px/43px Montserrat;
+    font: normal normal 600 36px/43px $font1;
     color: #fff;
 }
   
@@ -46,7 +46,7 @@
     font-size: 15px;
     line-height: 1.4;
     font-family: $font1;
-    font: normal normal 600 16px/23px Montserrat;
+    font: normal normal 600 16px/23px $font1;
     margin-bottom: 40px;
     font-weight: bold;
 }
@@ -103,7 +103,7 @@ h5 {
     font-size: 16px;
     padding-top: 30px;
     padding-left: 50px;
-    font: normal normal 600 16px/24px Montserrat;
+    font: normal normal 600 16px/24px $font1;
 }
   
 b {

@@ -20,7 +20,7 @@
 .tempus__suptitle {
     font-family: $font1;
     font-size: 30px;
-    font: normal normal 600 30px/43px Montserrat;
+    font: normal normal 600 30px/43px $font1;
     color: #fff;
 }
   
@@ -36,7 +36,7 @@
 .tempus__text{
     font-size: 14px;
     font-family: $font1;
-    font: normal normal normal 14px/20px Montserrat;
+    font: normal normal normal 14px/20px $font1;
     margin-bottom: 40px;
 }
 
