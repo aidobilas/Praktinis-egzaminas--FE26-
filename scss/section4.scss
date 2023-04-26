@@ -1,0 +1,60 @@
+.container4 {
+    width: 126.5%;
+    height: 596px;
+    padding-top: 90px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.logo3 {
+    width: 389px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+    margin-right: 350px;
+    padding-top: 50px;
+ }
+
+
+.tempus__suptitle {
+    font-family: $font1;
+    font-size: 30px;
+    font: normal normal 600 30px/43px Montserrat;
+    color: #fff;
+}
+  
+.tempus__suptitle:after{
+    content:"";
+    display: block;
+    height: 2px;
+    width: 200px;
+    background-color: $pink;
+    margin: 34px 0 36px 0;
+}
+  
+.tempus__text{
+    font-size: 14px;
+    font-family: $font1;
+    font: normal normal normal 14px/20px Montserrat;
+    margin-bottom: 40px;
+}
+
+.title {
+    display: flex;
+    color: white;
+    margin-top: 30px;
+
+    h5 {
+        color: white;
+    }
+
+    i {
+        color: white;
+        margin-right:  15px;
+        width: 50px;
+        height: 50px;
+        background-color: $pink;
+        border-radius: 100%;
+    }
+}
