@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
   
 body {
-    // margin: 0;
-    // padding: 0;
     max-width: 1200px;
     line-height: 1.5;
-    font-family: 'Montserrat';
+    font-family: $font1;
 }
   
 .topnav {
@@ -16,7 +15,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background: #000;
+    background: black;
     transition: 0.7s all;
     z-index: 100;
 }
@@ -32,14 +31,14 @@ nav li {
   
 nav a {
     display: inline-block;
-    color: #fff;
+    color: white;
     text-decoration: none;
     padding: 25px;
     transition: 0.3s all;
 }
 
 //   logotipas header
-img {
+.logo1 {
     margin: 10px;
     cursor: pointer;
 }
@@ -54,5 +53,5 @@ nav a {
     margin-top: 5px;
 }
 nav a:hover {
-    border-bottom: 4px solid #E27866; 
+    border-bottom: 4px solid $pink; 
 }
