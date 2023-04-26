@@ -9,7 +9,7 @@
     letter-spacing: 0px;
   }
   
-  .inner {
+ .topnav {
     width: 85%;
     margin: auto;
   }
@@ -22,14 +22,6 @@
     z-index: 100;
   }
 
-  body.header-fixed header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding-top: 0;
-    width: 100%;
-    z-index: 2;
-  }
 
   nav ul {
     float: right;
@@ -57,16 +49,13 @@
 
   nav a {
     transition: 0.3s ease;
-    background: black;
     color: white;
     font-size: 17px;
-    text-decoration: none;
     border-bottom: 4px solid black;
     padding: 20px 0;
     margin: 0 20px;
     margin-top: 5px;
   }
  nav a:hover {
-    border-bottom: 4px solid #E27866;
-    padding: 6px 0; 
+    border-bottom: 4px solid #E27866; 
   }
