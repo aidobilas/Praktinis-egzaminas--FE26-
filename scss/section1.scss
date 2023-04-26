@@ -128,7 +128,7 @@ b {
 }
   
 .mainform button:hover{
-    background:rgb(8, 69, 27);
+    background:rgb(4, 97, 34);
 }
   
   .mainform input{
@@ -150,13 +150,3 @@ b {
     outline: 0;
     border-color:#D8D8D8;
 }
-
-
-.radio, .checkbox{
-    position: relative;
-    left:-27px;
-    padding-bottom: 5px;
-    /*
-    background-color: yellow;*/
-    display: block;
-  }
