@@ -1,53 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
   
-  body {
+body {
     // margin: 0;
     // padding: 0;
     max-width: 1200px;
     line-height: 1.5;
     font-family: 'Montserrat';
-    letter-spacing: 0px;
-  }
+}
   
- .topnav {
+.topnav {
     width: 85%;
     margin: auto;
-  }
+}
   
-  header {
+header {
     position: fixed;
     width: 100%;
     background: #000;
     transition: 0.7s all;
     z-index: 100;
-  }
+}
 
-
-  nav ul {
+nav ul {
     float: right;
-  }
+}
   
-  nav li {
+nav li {
     display: inline;
     float: left;
-  }
+}
   
-  nav a {
+nav a {
     display: inline-block;
     color: #fff;
     text-decoration: none;
     padding: 25px;
     transition: 0.3s all;
-  }
-  
+}
 
 //   logotipas header
-  img {
+img {
     margin: 10px;
     cursor: pointer;
-  }
+}
 
-  nav a {
+nav a {
     transition: 0.3s ease;
     color: white;
     font-size: 17px;
@@ -55,7 +52,7 @@
     padding: 20px 0;
     margin: 0 20px;
     margin-top: 5px;
-  }
- nav a:hover {
+}
+nav a:hover {
     border-bottom: 4px solid #E27866; 
-  }
+}
