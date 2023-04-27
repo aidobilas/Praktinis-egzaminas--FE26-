@@ -1,6 +1,3 @@
-
-
-  
 body {
     max-width: 1200px;
     line-height: 1.5;
@@ -20,21 +17,13 @@ header {
     z-index: 100;
 }
 
-nav ul {
+ul {
     float: right;
 }
   
-nav li {
+li {
     display: inline;
     float: left;
-}
-  
-nav a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-    transition: 0.3s all;
 }
 
 //   logotipas header
@@ -43,15 +32,19 @@ nav a {
     cursor: pointer;
 }
 
-nav a {
-    transition: 0.3s ease;
+a {
     color: white;
     font-size: 17px;
     border-bottom: 4px solid black;
     padding: 20px 0;
     margin: 0 20px;
     margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s ease;
+    transition: 0.3s all;
 }
-nav a:hover {
+
+a:hover {
     border-bottom: 4px solid $pink; 
 }
