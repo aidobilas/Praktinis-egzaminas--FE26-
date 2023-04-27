@@ -1,0 +1,32 @@
+.container9 {
+    display: flex;
+    width: 126.5%;
+    height: 124px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    p {
+        font-size: 18px;
+        font: normal normal normal 18px/14px $font1;
+        color: white;
+        opacity: 0.5;
+        margin-right: 130px;
+    }   
+}
+    
+    .social2 {
+      display: flex;
+      gap: 120px;
+      width: 150px;
+      height: 30px;
+      cursor: pointer;
+      margin-left: 120px;
+
+      i {
+        color: $pink;
+        opacity: 0.65;
+      }
+    }
+  
