@@ -44,12 +44,19 @@
     h3 {
        margin: 20px;
     }
-    
+
     i {
-    color: $pink;
-    margin-bottom: 40px;
-    cursor: pointer;
+        width: 60px;
+        height: 60px;
+        background: $pink;
+        color: white;
+        border-radius: 100px;
+        display: flex;
+        margin-left: 110px;
+        justify-content: center;
+        align-items: center;
     }
+
 }
   
     
@@ -68,3 +75,6 @@
     margin-bottom: 200px;
     } 
 }
+
+
+
