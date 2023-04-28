@@ -47,13 +47,19 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
     transition: .25s;
     position: relative;
+    
+    .pricing-table__title {
+        font: normal normal normal 14px/24px $font1;
+    }
 
     h2 {
         padding: 10px;
+        font: normal normal normal 20px/24px $font1;
     }
 
     p {
         margin-bottom: 10px;
+        font: normal normal normal 14px/24px $font1;
     }
     
     &:hover  {
@@ -70,17 +76,13 @@
     
     &__title {
       font-size: 14px;
-      font-weight: 700;
       background: $green;
     }
     
     &__price {
       text-align: center;
-      font-family: $font1;
-      font-size: 94px;
+      font: normal normal normal 94px/24px $font1;
       line-height: 1;
-      margin-bottom: 10px;
-      margin-top: 10px;
       position: relative;
 
 
