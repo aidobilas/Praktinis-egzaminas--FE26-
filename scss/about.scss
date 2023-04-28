@@ -1,6 +1,7 @@
 /* container */
 .container{
     padding: 120px;
+    height: 100vh;
     max-width: 100%;
     padding-top: 160px;
     position: relative;
@@ -9,7 +10,6 @@
 /* section */
 .section1 {
   min-width: 126.5%;
-  height: 100vh;
   background-image: url("/images/section1/photo-1480714378408-67cf0d13bc1b@2x.png");
   background-size: cover;
   background-position: center;

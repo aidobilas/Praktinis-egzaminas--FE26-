@@ -1,19 +1,20 @@
 .container6 {
     width: 126.5%;
-    height: 592px;
+    height: 883px;
     background-color: $blue;
     color: white;
-    position: relative;
     align-items: center;
     text-align: center;
-    background: #6696E2 0% 0% no-repeat padding-box;
+    background: $blue 0% 0% no-repeat padding-box;
     font-family: $font1;
+    margin-inline: auto;
+    position: relative;
 }
-
 
 .pricing__suptitle {
     font-size: 36px;
     margin-left: auto;
+    padding-top: 80px;
     margin-top: 150px;
     font: normal normal 600 36px/43px $font1;
 }
@@ -32,29 +33,117 @@
     font-size: 14px;
     font-family: $font1;
     font: normal normal normal 14px/20px $font1;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
-.pricing-theme {
-    display: flex;
-    align-items: first baseline;
-    justify-content: center;
-    background: white;
-    gap: 60px;
 
-    h3 {
-       margin: 20px;
+/* ---------- PRICING TABLE ---------- */
+    .pricing-table {
+    width: 280px;
+    background: #fff;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
+    transition: .25s;
+    position: relative;
+
+    h2 {
+        padding: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
     }
     
-    i {
-    color: $pink;
-    margin-bottom: 50px;
-    cursor: pointer;
+    &:hover  {
+      z-index: 10;
+      transform: scale(1.15);
+      cursor: pointer;
     }
-}
-  
     
+    &__header {
+      background: #333333;
+      border-radius: 5px;
+      color: #fff;
+    }
+    
+    &__title {
+      font-size: 14px;
+      font-weight: 700;
+      background: $green;
+    }
+    
+    &__price {
+      text-align: center;
+      font-family: $font1;
+      font-size: 94px;
+      line-height: 1;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      position: relative;
+
+
+    //   Dolerio ženklo dydis
+      &:after, &:before {
+        display: inline-block;
+        font-size: 40px;
+      }
+
+    //   Dolerio ženklas
+      &:before {
+        content: "$";
+        top: 50px;
+        margin-left: -30px;
+        margin-bottom: 10px;
+        position: absolute;
+      }
+    }
+    
+    &__info {
+      padding: 10px;
+      color: #999;
+      
+      
+      li {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        &:last-child {
+          border: 0;
+        }
+      }
+    }
+  }
   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px){
 .section {
@@ -69,3 +158,4 @@
     margin-bottom: 200px;
     } 
 }
+
