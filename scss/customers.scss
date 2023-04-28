@@ -1,0 +1,93 @@
+
+.customers{
+    height: 500px;
+    padding: 15px;
+}
+.customers .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+.customers .container .up h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.customers .container .up hr{
+    width: 50px;
+    height: 3px;
+    background-color: #FF8B38;
+    outline: none;
+    border: none;
+    margin: 0 auto 30px;
+}
+.customers .container .up p{
+    text-align: center; color: #888;
+}
+.customers .container .down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customers .container .down .comments .con{
+    height: 150px;
+    width: 287px;
+    background-color: #6696E2;
+    margin: 0 30px 0 0;
+    position: relative;
+    color: white;
+    line-height: 1.3;
+    font-style: italic;
+    padding: 10px 6px 10px 6px;
+}
+.customers .container .down .comments .con .arr{
+    height: 20px;
+    width: 20px;
+    background-color: #6696E2;
+    position: absolute;
+    top: 140px;
+    left: 36px;
+    transform: rotate(47deg);
+}
+.customers .container .down .comments .info img{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.customers .container .down .comments .info {
+    display: flex;
+    align-items: center;
+}
+.customers .container .down .comments .info .sub h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+.customers .container .down .comments .info .sub span{
+    color: #777;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+// @media (min-width: 768px) and (max-width: 991px){ /*  For smal screen rules  */
+//     .testimonials .container .down {flex-direction: column; padding-top: 40px;}
+//     .testimonials{ height: 1100px;}
+//     .testimonials .container{justify-content: flex-start;  padding: 40px;}
+// }
+// @media (max-width: 767px){ /*  For mobile &  tablet rules  */
+//     .testimonials{width:100%;}
+//     .testimonials .container .down {flex-direction: column; padding-top: 40px;}
+//     .testimonials{ height: 1200px;}
+//     .testimonials .container{justify-content: flex-start;  padding: 40px;}
+//     .testimonials .container .down .comments{margin: 10px 0;}
+//     .testimonials .container .down .comments .con .arr{display: none;}
+// }
+// @media (max-width: 334px){
+//     .testimonials .container .down .comments .con{max-width: auto !important; max-height: auto !important;}
+// }
+// /*-------End of Testimonials-----*/
