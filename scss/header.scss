@@ -52,96 +52,97 @@ a:hover {
 
 /*Start Header*/
 .header{
-    background: url('https://s22.postimg.org/4uj8eawtt/CityRoad.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -o-background-size:cover;
-    -moz-background-size:cover;
-    background-size: cover;
-    position: relative;
-    color: #FFF;
-    height: 100vh; /* For Get Full Height To Tof*/
-    overflow: hidden; /*For Skip The Error When Open Inspect Element*/
-  }
-  @media (max-width: 991px){.header{height:950px}}
-  
-  .header .overlay{
-  /*padding-top: 100px;*/
-    position: absolute;
-    background-color: rgba(0, 0, 0, .6);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .header .centering-vh{margin-top: 25vh} /*For Centring Row(input & AXit)*/
-  @media (max-width:991px) {.header .centering-vh{margin-top: 60px}}
-  
-  .header h1{
-    font-weight: bold;
-    font-size: 74px;
-  }
-  
-  
-  .header h1 span{
-    font-weight: normal;
-    color: darkorange
-  }
-  
-  .header h1 ~ .lead{font-size: 35px}
-  
-  .header h1 ~ .lead:after{
-    content: "";
-    display:block;
-    width: 66px;
-    height: 2px;
-    background-color: #FFF;
-    margin: 20px 0px
-  }
-  
-  @media (max-width:991px){ .header h1 ~ .lead:after{margin: 20px auto;width: 100px;} }
-  
-  .header button{
-    background: transparent;
-    padding: 5px 15px;
-    margin-top: 15px;
-    border: 2px solid #FFF
-  }
-  
-  @media (max-width:991px){.header button{display: block;margin: 30px auto;} }
-  
-  
-  .header form{
-    width: 360px;
-    background-color:#FFF;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .header form h2{
-    background-color: #F5F5F5;
-    color: #333;
-    font-size: 18px;
-    padding: 19px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 30px
-  }
-  
-  .header form h2 span{color: darkorange}
-  
-  .header form .form-control{
-    padding-bottom: 10px;
-    border: none;
-    box-shadow: none;
-    border-bottom: 1px solid #CCC;
-    width: 80%;
-    margin: 0 auto 40px;
-  }
-  
-  .header form input[type="submit"]{
-    background-color: darkorange;
-    padding: 15px
-  }
-  
-  /*End Header*/
+  background: url('images/header-image/cheshire-county-hygiene-services.svg') 
+  no-repeat top center;
+  -webkit-background-size: cover;
+  -o-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+  position: relative;
+  color: #FFF;
+  height: 100vh; /* For Get Full Height To Tof*/
+  overflow: hidden; /*For Skip The Error When Open Inspect Element*/
+}
+@media (max-width: 991px){.header{height:950px}}
+
+.header .overlay{
+/*padding-top: 100px;*/
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header .centering-vh{margin-top: 25vh} /*For Centring Row(input & AXit)*/
+@media (max-width:991px) {.header .centering-vh{margin-top: 60px}}
+
+.header h1{
+  font-weight: bold;
+  font-size: 74px;
+}
+
+
+.header h1 span{
+  font-weight: normal;
+  color: darkorange
+}
+
+.header h1 ~ .lead{font-size: 35px}
+
+.header h1 ~ .lead:after{
+  content: "";
+  display:block;
+  width: 66px;
+  height: 2px;
+  background-color: #FFF;
+  margin: 20px 0px
+}
+
+@media (max-width:991px){ .header h1 ~ .lead:after{margin: 20px auto;width: 100px;} }
+
+.header button{
+  background: transparent;
+  padding: 5px 15px;
+  margin-top: 15px;
+  border: 2px solid #FFF
+}
+
+@media (max-width:991px){.header button{display: block;margin: 30px auto;} }
+
+
+.header form{
+  width: 360px;
+  background-color:#FFF;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header form h2{
+  background-color: #F5F5F5;
+  color: #333;
+  font-size: 18px;
+  padding: 19px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px
+}
+
+.header form h2 span{color: darkorange}
+
+.header form .form-control{
+  padding-bottom: 10px;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #CCC;
+  width: 80%;
+  margin: 0 auto 40px;
+}
+
+.header form input[type="submit"]{
+  background-color: darkorange;
+  padding: 15px
+}
+
+/*End Header*/
