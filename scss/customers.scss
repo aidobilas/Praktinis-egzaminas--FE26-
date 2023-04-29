@@ -21,7 +21,7 @@
     margin-bottom: 20px;
     text-align: center;
     font-weight: 100;
-    font: normal normal 600 36px/43px Montserrat;
+    font: normal normal 600 36px/43px $font1;
 }
 
 .customers .container .up hr{
@@ -85,6 +85,29 @@
     color: #86878B;
     font-size: 14px;
 }
+
+
+
+
+.swiper {
+    max-width: 1000px;
+    height: 300px;
+  }
+
+
+.swiper-container {
+    display: block;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: $pink;
+    border: 1px solid #E27866;
+    transition: 0.3s;
+}
+
+
 
 // @media (min-width: 768px) and (max-width: 991px){ /*  For smal screen rules  */
 //     .testimonials .container .down {flex-direction: column; padding-top: 40px;}

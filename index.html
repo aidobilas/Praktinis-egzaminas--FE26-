@@ -5,10 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praktinis egzaminas (FE26)</title>
+
+  <!-- swiperjs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
   <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
   <!-- fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <link rel="stylesheet" href="app/css/style.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="topnav">
@@ -219,10 +227,10 @@
 
     <section id="Customers">
       <div class="container-8">
-        <!--Start Testmonials-->
+        <!--Start customers-->
   <div class="customers">
     <div class="container8">
-      <!-------Start of Testimonials---------->
+      <!-------Start of customers---------->
     <div class="customers">
       <div class="wrapper">
           <div class="container">
@@ -232,52 +240,95 @@
               </div>
               <div class="down">
                   <div class="comments">
-                      <div class="con">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.
-                          <div class="arr"></div>
-                      </div>
-                      <div class="info">
-                          <img src="images\customers\avatar_2_u231.png">
-                          <div class="sub">
-                              <h4>Jeremy H.</h4>
-                              <span>Manager</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="comments">
-                      <div class="con">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.
-                          <div class="arr"></div>
-                      </div>
-                      <div class="info">
-                          <img src="images\customers\avatar_2_u231.png">
-                          <div class="sub">
-                              <h4>John S.</h4>
-                              <span>Freelancer</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="comments">
-                      <div class="con">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.
-                          <div class="arr"></div>
-                      </div>
-                      <div class="info">
-                          <img src="images\customers\avatar_2_u231.png">
-                          <div class="sub">
-                              <h4>Susan W.</h4>
-                              <span>Photographer</span>
-                          </div>
+
+
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="con">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.
+          <div class="arr"></div>
+          </div>
+          <div class="info">
+            <img src="images\customers\avatar_2_u231.png">
+          <div class="sub">
+              <h4>Jeremy H.</h4>
+              <span>Manager</span>
+          </div>
+          </div>
+        </div>
+      <div class="comments">
+    </div>
+    <div class="swiper-slide">
+      <div class="con">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.
+          <div class="arr"></div>
+        </div>
+        <div class="info">
+          <img src="images\customers\avatar_2_u231.png">
+          <div class="sub">
+              <h4>John S.</h4>
+              <span>Freelancer</span>
+          </div>
+          </div>
+        </div>
+      <div class="comments">
+    </div>
+    <div class="swiper-slide">
+      <div class="con">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.
+          <div class="arr"></div>
+          </div>
+          <div class="info">
+            <img src="images\customers\avatar_2_u231.png">
+          <div class="sub">
+              <h4>Susan W.</h4>
+              <span>Photographer</span>
+          </div>
+          </div>
+        </div>
+      <div class="comments">
+    </div>
+    <div class="swiper-slide">
+      <div class="con">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.
+          <div class="arr"></div>
+          </div>
+          <div class="info">
+            <img src="images\customers\avatar_2_u231.png">
+          <div class="sub">
+              <h4>Franks W.</h4>
+              <span>Assistans</span>
+          </div>
+          </div>
+        </div>
+      <div class="comments">
+    </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+  
+
+
+
+
+                      
+                      
+                      
                       </div>
                   </div>
               </div>
           </div>
       </div>
   </div>
-  <!-------End of Testimonials------------>
+  <!-------End of customers------------>
       </div>
     </section>
-
 
     <section id="Contact">
       <div class="container7">
@@ -309,6 +360,11 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+  <!-- Swiper js -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <script src="swiper.js"></script>
+  <!-- Custom js -->
+  <script src="script.js"></script>
 </body>
 </html>
