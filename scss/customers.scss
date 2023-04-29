@@ -13,12 +13,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 500px;
+    height: 550px;
 }
 
 .customers .container .up h2{
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
     font-weight: 100;
     font: normal normal 600 36px/43px Montserrat;
@@ -31,18 +31,15 @@
     outline: none;
     border: none;
     margin: 0 auto 30px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.customers .container .up p{
-    text-align: center; color: #888;
-    margin-bottom: 20px;
-}
 .customers .container .down{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .customers .container .down .comments .con{
     height: 147px;
     width: 273px;
@@ -51,10 +48,11 @@
     position: relative;
     color: white;
     line-height: 1.3;
-    font-style: italic;
+    font: normal normal normal 16px/22px $font1;
     border-radius: 8px;
     padding: 10px 6px 10px 6px;
 }
+
 .customers .container .down .comments .con .arr{
     height: 20px;
     width: 20px;
@@ -64,25 +62,28 @@
     left: 36px;
     transform: rotate(47deg);
 }
+
 .customers .container .down .comments .info img{
     height: 100px;
     width: 100px;
     margin-top: 25px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
+
 .customers .container .down .comments .info {
     display: flex;
     align-items: center;
 }
+
 .customers .container .down .comments .info .sub h4{
     font-weight: 800;
     font-size: 20px;
 }
+
 .customers .container .down .comments .info .sub span{
-    color: #777;
-    padding-left: 10px;
-    font-size: 13px;
+    color: #86878B;
+    font-size: 14px;
 }
 
 // @media (min-width: 768px) and (max-width: 991px){ /*  For smal screen rules  */
