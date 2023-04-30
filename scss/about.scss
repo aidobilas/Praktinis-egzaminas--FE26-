@@ -147,4 +147,18 @@ b {
     color: #D8D8D8;;
 }
   
+.form-buttons {
+    display: flex;
+    width: 10px;
+    height: 45px;
+    color: black;
+    margin-left: 75px;
+}
+
+label {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 25px;
+   font: normal normal 600 9px/27px $font1; 
+}
 
