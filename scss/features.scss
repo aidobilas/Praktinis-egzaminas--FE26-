@@ -32,9 +32,9 @@
     background: #E27866;
 }
   
-.btn-tab.selected {
-    background: #ffffff96;
-}
+// .btn-tab.selected {
+//     background: #ffffff96;
+// }
 
 .btn-container {
    display: flex;
@@ -48,7 +48,7 @@
 .tabs {
     display: flex;
     flex-direction: column;
-    max-width: 509px;
+    max-width: 609px;
     width: 95%;
     margin: auto;
     border-radius: 10px;
@@ -57,8 +57,9 @@
     margin-left: 30px;
 
     h1 {
-    font-size: 26px; 
+    font-size: 36px; 
     font-weight: bold;
+    
     }
 
     p {
@@ -73,12 +74,41 @@
     display: none;
 }
 
-// span {
-//     text;
-//     transform: rotate(-90deg);
-// }
+.photo-1 {
+    width: 168px;
+    height: 168px;
+    margin-top: 160px;
+    box-shadow:  6px #00000059;
+}
 
+.photo-2 {
+    width: 168px;
+    height: 168px;
+    margin-right: 130px;
+    box-shadow: 6px #00000059;
+}
 
+.photo-3 {
+    width: 342px;
+    height: 177px;
+    display: flex;
+    box-shadow: 6px #00000059;
+}
+
+.photo-1:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.photo-2:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.photo-3:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
         // transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 
 
