@@ -1,152 +1,113 @@
-body {
-    width: 100%;
-    line-height: 1.5;
-    font-family: $font1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html {
-     scroll-behavior: smooth;
-} 
-  
 .topnav {
-    width: 85%;
-    margin: auto;
-}
-  
-header {
+      width: 100%;
+      margin: auto;
+  }
+    
+  header {
     position: fixed;
     width: 100%;
     background: black;
     transition: 0.7s all;
     z-index: 100;
-}
+    width: 100%;
+    line-height: 1.5;
+    font-family: $font1;
+  }
 
-ul {
-    float: right;
-}
-  
-li {
-    display: inline;
-    float: left;
-}
-
-//   logotipas header
 .logo1 {
-    margin: 10px;
-    cursor: pointer;
+  width: 490px;
+  height: 52px;
+  display: flex;
+  margin: 5px;
+  cursor: pointer;
 }
 
-a {
-    color: white;
-    font-size: 17px;
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 72px;
+  background: black;
+  transition: 0.7s all;
+  z-index: 100;
+}
+
+.link-nav {
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font: normal normal normal 14px/17px Montserrat;
+  transition: 0.3s;
+}
+
+ nav a {
+    font-size: 14px;
+    position: relative;
     border-bottom: 4px solid black;
-    padding: 20px 0;
-    margin: 0 20px;
-    margin-top: 5px;
-    display: inline-block;
+    margin-left: 35px;
     text-decoration: none;
     transition: 0.3s ease;
     transition: 0.3s all;
 }
 
-a:hover {
-    border-bottom: 4px solid $pink; 
+nav a:hover {      
+       border-bottom: 4px solid $pink; 
 }
 
-
-/*Start Header*/
-.header{
-  background: url('images/header-image/cheshire-county-hygiene-services.svg') 
-  no-repeat top center;
-  -webkit-background-size: cover;
-  -o-background-size:cover;
-  -moz-background-size:cover;
-  background-size: cover;
-  position: relative;
-  color: #FFF;
-  height: 100vh; /* For Get Full Height To Tof*/
-  overflow: hidden; /*For Skip The Error When Open Inspect Element*/
+.link {
+  padding: 15px;
+  z-index: 2;
+  transition: 0.3s;
 }
-@media (max-width: 991px){.header{height:950px}}
 
-.header .overlay{
-/*padding-top: 100px;*/
+.link::before {
   position: absolute;
-  background-color: rgba(0, 0, 0, .6);
-  top: 0;
-  left: 0;
+  content: "";
+  left: 0px;
+  bottom: 0;
   width: 100%;
+  height: 5px;
+  background: whi;
+  opacity: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.link:hover:before {
+  opacity: 1;
   height: 100%;
 }
 
-.header .centering-vh{margin-top: 25vh} /*For Centring Row(input & AXit)*/
-@media (max-width:991px) {.header .centering-vh{margin-top: 60px}}
-
-.header h1{
-  font-weight: bold;
-  font-size: 74px;
+#burger {
+  display: none;
 }
 
+@media (max-width: 768px) {
 
-.header h1 span{
-  font-weight: normal;
-  color: darkorange
+
+  .link {
+      display: none;
+  }
+
+  #burger {
+    display: block;
+    margin-left:  -80px;
+    border: none;
+  }
 }
-
-.header h1 ~ .lead{font-size: 35px}
-
-.header h1 ~ .lead:after{
-  content: "";
-  display:block;
-  width: 66px;
-  height: 2px;
-  background-color: #FFF;
-  margin: 20px 0px
-}
-
-@media (max-width:991px){ .header h1 ~ .lead:after{margin: 20px auto;width: 100px;} }
-
-.header button{
-  background: transparent;
-  padding: 5px 15px;
-  margin-top: 15px;
-  border: 2px solid #FFF
-}
-
-@media (max-width:991px){.header button{display: block;margin: 30px auto;} }
-
-
-.header form{
-  width: 360px;
-  background-color:#FFF;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.header form h2{
-  background-color: #F5F5F5;
-  color: #333;
-  font-size: 18px;
-  padding: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 30px
-}
-
-.header form h2 span{color: darkorange}
-
-.header form .form-control{
-  padding-bottom: 10px;
-  border: none;
-  box-shadow: none;
-  border-bottom: 1px solid #CCC;
-  width: 80%;
-  margin: 0 auto 40px;
-}
-
-.header form input[type="submit"]{
-  background-color: darkorange;
-  padding: 15px
-}
-
-/*End Header*/
