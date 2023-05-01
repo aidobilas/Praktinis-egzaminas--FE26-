@@ -135,23 +135,15 @@
     display: flex;
     height: 2px;
     width: 64px;
-    margin-left: 170px;
+    margin-left: 160px;
     }
 
     .pricing__text{
-      font-size: 15px;
-      margin-bottom: 30px;
+      font-size: 10px;
+      margin-bottom: 10px;
     }
 
     .pricing-table {
-      width: 250px;
-      background: #fff;
-      border-radius: 5px;
-      float: left;
-      margin-left: 20px;
-      margin: 20px;
-      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
-      transition: .25s;
-      position: relative;
-}
-
+      width: 335px;
+      justify-content: space-between;
+}}

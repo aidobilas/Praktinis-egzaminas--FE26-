@@ -122,11 +122,11 @@
 
      .btn-container {
         display: flex;
-        width: 45px;
+        width: 10px;
+        height: 10px;
         padding-left: -60px;
         flex-direction: row;
         justify-content: center;
-        // margin-left: 180px;
      }
 
      .tabs {
@@ -136,14 +136,14 @@
         text-align: center;
     
         h1 {
-        font-size: 36px; 
+        font-size: 26px; 
         font-weight: bold;
         
         }
     
         p {
         margin-top: 20px;
-        margin-bottom: -150px;
+        margin-bottom: -70px;
         color: white;
        text-align: center;
         font-size: 14px;
@@ -152,10 +152,10 @@
 
     .photo-1 {
         float: left;
-        margin-left: 25px;
+        margin-left: 15px;
         width: 168px;
         height: 168px;
-        margin-top: 140px;
+        margin-top: 10px;
         box-shadow:  6px #00000059;
     }
     
@@ -163,7 +163,7 @@
         display: flex;
         width: 168px;
         height: 168px;
-        margin-top: 140px;
+        margin-top: 10px;
         margin-right: 185px;
         box-shadow: 6px #00000059;
     }
@@ -173,7 +173,7 @@
         width: 336px;
         height: 177px;
         display: flex;
-        margin-left: 25px;
+        margin-left: 15px;
         margin-bottom: 50px;
         box-shadow: 6px #00000059;
     }

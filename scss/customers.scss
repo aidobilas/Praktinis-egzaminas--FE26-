@@ -92,6 +92,7 @@
 .swiper {
     max-width: 1000px;
     height: 300px;
+    margin-right: 10px;
   }
 
 
@@ -107,22 +108,31 @@
     transition: 0.3s;
 }
 
+@media (max-width: 768px){
+    .container8 {
+        width: 100%;
+        height: 650px;
+    }
 
+    .customers .container .up h2{
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-right: 60px;
+    }
 
-// @media (min-width: 768px) and (max-width: 991px){ /*  For smal screen rules  */
-//     .testimonials .container .down {flex-direction: column; padding-top: 40px;}
-//     .testimonials{ height: 1100px;}
-//     .testimonials .container{justify-content: flex-start;  padding: 40px;}
-// }
-// @media (max-width: 767px){ /*  For mobile &  tablet rules  */
-//     .testimonials{width:100%;}
-//     .testimonials .container .down {flex-direction: column; padding-top: 40px;}
-//     .testimonials{ height: 1200px;}
-//     .testimonials .container{justify-content: flex-start;  padding: 40px;}
-//     .testimonials .container .down .comments{margin: 10px 0;}
-//     .testimonials .container .down .comments .con .arr{display: none;}
-// }
-// @media (max-width: 334px){
-//     .testimonials .container .down .comments .con{max-width: auto !important; max-height: auto !important;}
-// }
-// /*-------End of Testimonials-----*/
+    .customers .container .up hr{
+        width: 124px;
+        height: 2px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .swiper {
+        max-width: 300px;
+        height: 300px;
+        margin-right: 40px;
+      }
+}
+
