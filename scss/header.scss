@@ -15,7 +15,6 @@
     background: black;
     transition: 0.7s all;
     z-index: 100;
-    width: 100%;
     line-height: 1.5;
     font-family: $font1;
   }
@@ -99,8 +98,6 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-
-
   .link {
       display: none;
   }

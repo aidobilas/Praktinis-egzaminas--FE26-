@@ -120,16 +120,38 @@
   
 
 @media (max-width: 768px){
-.section {
-    background-color: #f8f9fa;
+  .container6 {
+    width: 100%;
+    height: 1700px;
 }
-  
-.pricing-theme {
+  .pricing__suptitle {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-top: 150px;
+  }
+
+  .pricing__suptitle:after {
+    content:"";
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    } 
+    height: 2px;
+    width: 64px;
+    margin-left: 170px;
+    }
+
+    .pricing__text{
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+
+    .pricing-table {
+      width: 250px;
+      background: #fff;
+      border-radius: 5px;
+      float: left;
+      margin-left: 20px;
+      margin: 20px;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
+      transition: .25s;
+      position: relative;
 }
 
