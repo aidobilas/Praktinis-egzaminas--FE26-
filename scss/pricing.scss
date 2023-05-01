@@ -43,7 +43,7 @@
     background: #fff;
     border-radius: 5px;
     float: left;
-    margin: 20px;
+    margin: 30px;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
     transition: .25s;
     position: relative;
@@ -117,7 +117,85 @@
       }
     }
   }
+
+
+  .pricing-table2 {
+    width: 260px;
+    background: #fff;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.511);
+    transition: .25s;
+    position: relative;
   
+    .pricing-table__title {
+      font: normal normal normal 14px/24px $font1;
+      padding: 1px;
+  }
+
+  h2 {
+      padding: 10px;
+      font: normal normal normal 20px/24px $font1;
+  }
+
+  p {
+      margin-bottom: 10px;
+      font: normal normal normal 14px/24px $font1;
+  }
+  
+  &:hover  {
+    z-index: 10;
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+  
+  &__header {
+    background: #333333;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  &__title {
+    font-size: 14px;
+    background: $green;
+  }
+  
+  &__price {
+    text-align: center;
+    font: normal normal normal 94px/24px $font1;
+    line-height: 1;
+    position: relative;
+
+  //   Dolerio ženklo dydis
+    &:after, &:before {
+      display: inline-block;
+      font-size: 40px;
+    }
+
+  //   Dolerio ženklas
+    &:before {
+      content: "$";
+      top: 50px;
+      margin-left: -30px;
+      margin-bottom: 10px;
+      position: absolute;
+    }
+  }
+  
+  &__info {
+    padding: 10px;
+    color: #999;
+    
+    
+    li {
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}
 
 @media (max-width: 768px){
   .container6 {
