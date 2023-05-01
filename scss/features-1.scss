@@ -14,7 +14,13 @@
     margin-left: 100px;
     margin-right: 350px;
     padding-top: 50px;
+    cursor: pointer;
+    opacity: 1;
  }
+
+ .logo3:hover {
+    opacity: 0.8;
+  }
 
 
 .tempus__suptitle {
@@ -61,6 +67,10 @@
         align-items: center;
         cursor: pointer;
     }
+
+    i:hover {
+        opacity: 0.6;
+      }
 }
 
 @media (max-width: 768px) {

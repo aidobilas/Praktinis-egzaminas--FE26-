@@ -26,7 +26,11 @@
 
       i {
         color: $pink;
-        opacity: 0.65;
+        opacity: 1;
+      }
+      i:hover {
+        color: $pink;
+        opacity: 0.6;
       }
     }
   
