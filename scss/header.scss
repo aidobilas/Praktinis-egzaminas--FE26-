@@ -5,8 +5,8 @@
 }
 
 .topnav {
-      width: 100%;
-      margin: auto;
+  display: flex;
+  max-width: 100%;
   }
     
   header {
@@ -109,7 +109,7 @@ nav a:hover {
 
   #burger {
     display: block;
-    margin-left:  -280px;
+    margin-left:  -310px;
     border: none;
   }
 
