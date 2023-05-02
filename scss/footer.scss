@@ -6,13 +6,19 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+ 
 
     p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
         font-size: 18px;
         font: normal normal normal 18px/14px $font1;
         color: white;
         opacity: 0.5;
         margin-right: 190px;
+        z-index: -1;
+ 
     }   
 }
     
@@ -44,7 +50,7 @@
 
     .social2 {
       gap: 40px;
-      margin-left: 35px;
+      margin-left: 45px;
       width: 140px;
       height: 30px;
       margin-top: -10px;
