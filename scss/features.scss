@@ -25,6 +25,11 @@
     }
 }
 
+.btn-tab span {
+    transform: rotate(-70deg);
+     transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+}
+
 
 .btn-tab:hover {
     cursor: pointer;
