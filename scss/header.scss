@@ -93,6 +93,11 @@ nav a:hover {
   height: 100%;
 }
 
+.active {
+  border-bottom: 4px solid $pink; 
+  color: white;
+}
+
 #burger {
   display: none;
 }

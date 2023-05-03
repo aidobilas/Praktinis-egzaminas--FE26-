@@ -6,8 +6,6 @@
     font-family: $font1;
     margin-inline: auto;
     position: relative;
-    
-    
 }
 
 .customers .container{
@@ -23,24 +21,25 @@
     margin-bottom: 20px;
     text-align: center;
     font-weight: 100;
+    margin-right: 80px;
     font: normal normal 600 36px/43px $font1;
 }
 
 .customers .container .up hr{
-    width: 64px;
+    content:"";
+    display: flex;
     height: 2px;
-    background-color: $blue;
-    outline: none;
-    border: none;
-    margin: 0 auto 30px;
-    margin-bottom: 60px;
+    width: 64px;
+    background-color: $green;
+    margin: 34px 0 36px 0;
+    margin-left: 255px;
 }
 
-.customers .container .down{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+// .customers .container .down{
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
 
 .customers .container .down .comments .con{
     height: 147px;
@@ -99,7 +98,7 @@ img:hover {
 .swiper {
     max-width: 1000px;
     height: 300px;
-    margin-right: 10px;
+    margin-right: 40px;
   }
 
 
