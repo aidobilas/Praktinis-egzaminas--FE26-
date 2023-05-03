@@ -13,21 +13,21 @@
 
     
     .btn-tab {
-        width: 100px;
-        height: 100px;
-        background: #e2786645;
-        border: none;
-        color: white;
-        font-size: 14px;
-        box-shadow: 0px 3px 6px #00000059;
-        transition: 0.3s;
-        margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: #e2786645;
+    border: none;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 3px 6px #00000059;
+    transition: 0.3s;
+    margin: 10px;
     }
 }
 
-span {
+.span {
     display: inline-block;
-     transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 }
 
 
@@ -63,7 +63,6 @@ span {
     h1 {
     font-size: 36px; 
     font-weight: bold;
-    
     }
 
     p {
@@ -129,8 +128,7 @@ span {
         flex-direction: row;
         margin-left: 10px;
         margin-bottom: -150px;
-
-     }
+    }
 
      .tabs {
         display: flex;
@@ -195,7 +193,6 @@ span {
         cursor: pointer;
         opacity: 0.5;
     }
-     
 }
 
 
