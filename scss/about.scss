@@ -168,6 +168,10 @@ label {
    font: normal normal 600 9px/27px $font1; 
 }
 
+input[name="genre"] {
+	accent-color: green;
+}
+
 
 @media (max-width: 768px){
     .container{
