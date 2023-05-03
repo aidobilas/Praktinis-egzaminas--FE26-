@@ -27,7 +27,6 @@
 
 span {
     display: inline-block;
-    transform: rotate(-70deg);
      transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 }
 
@@ -115,10 +114,6 @@ span {
     opacity: 0.5;
 }
 
-        // transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
-
-
-        // transform: rotate(-90deg);
 
 @media (max-width: 768px) {
     .container3 {
