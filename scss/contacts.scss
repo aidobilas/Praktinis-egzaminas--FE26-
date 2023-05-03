@@ -87,12 +87,8 @@
     }  
 
     input[name="genre"] {
-        accent-color: green;
+        accent-color: $green;
     }
-}
-
-.input [name="genre"] {
-    accent-color: green;
 }
 
 @media (max-width: 768px){
