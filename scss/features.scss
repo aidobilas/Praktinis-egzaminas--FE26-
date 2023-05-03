@@ -25,7 +25,8 @@
     }
 }
 
-.btn-tab span {
+span {
+    display: inline-block;
     transform: rotate(-70deg);
      transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 }
